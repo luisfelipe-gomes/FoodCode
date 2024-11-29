@@ -1,0 +1,50 @@
+# Logs
+logs/
+*.log
+*.tlog
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Configurações do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de build
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.iobj
+*.ipdb
+
+# Arquivos de publicação
+publish/
+out/
+
+# Dependências do NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Configuração do Rider (JetBrains IDE)
+.idea/
+*.idea/
+
+# Ambientes e Chaves Sensíveis
+*.env
+appsettings.*.json
+
+# Outros arquivos desnecessários
+*.swp
+*.bak
+*.tmp
+*.db
